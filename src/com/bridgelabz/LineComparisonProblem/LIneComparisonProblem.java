@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class LIneComparisonProblem {
 
         //Method For Checking Lines Are Equal are not
-    static void equals(Integer lenght1, Integer lenght2){
+    static void equalsTo(Integer lenght1, Integer lenght2){
         boolean result = lenght1.equals(lenght2);
 
-        if (result ==true)
+        if ( result == true )
             System.out.println("Length of lines is Equal");
         else
             System.out.println("Lines are not equals...");
     }
     //Method For Comparing Line
-    static void compare(Integer length1,Integer length2){
+    static void compareTo(Integer length1,Integer length2){
         int result = length1.compareTo(length2);
         if(result>0)
             System.out.println("Line One is greater :");
@@ -59,9 +59,9 @@ public class LIneComparisonProblem {
         System.out.println("Length of second line is : " + length2);
 
         //Calling Equal Method
-        equals(length1, length2);
+        equalsTo(length1, length2);
         //calling Compare Method
-        compare(length1, length2);
+        compareTo(length1, length2);
     }
 
 }
